@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WatermarkView">
+        <attr name="imageResource" format="reference"/>
+        <attr name="imageRotate" format="float"/>
+    </declare-styleable>
+</resources>

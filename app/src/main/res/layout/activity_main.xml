@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    mipmap-anydpi-v26/ic_launcher.xml存在,
+    BitmapFactory.decodeResource(..) 会解析到ic_launcher.xml引起异常
+    -->
+    <com.obelieve.watermarkview.WatermarkView
+        android:id="@+id/wmv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:imageResource="@mipmap/ic_launcher"
+        app:imageRotate="30"/>
+</LinearLayout>
