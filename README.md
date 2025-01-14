@@ -1,5 +1,5 @@
 # WaterMarkView
-页面水印背景图
+页面加水印背景
 
 ![image](https://github.com/obelieve/WaterMarkView/blob/master/screenshots/screenshot.png)
 
